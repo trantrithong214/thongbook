@@ -37,7 +37,7 @@
 .postImg {
   margin-top: 20px;
   width: 100%;
-  max-height: 500px;
+  max-height: 700px;
   object-fit: contain;
 }
 .postBottom {
@@ -48,6 +48,9 @@
 .postBottomLeft {
   display: flex;
   align-items: center;
+}
+.block {
+  padding-left: 10px;
 }
 .Icon {
   width: 24px;

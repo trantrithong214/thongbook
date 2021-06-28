@@ -37,9 +37,6 @@ export default function Post(props) {
             </span>
             <span className="postTime">{props.post.date}</span>
           </div>
-          <div className="postTopRight">
-            <MoreVert />
-          </div>
         </div>
         <div className="postCenter">
           <span className="postText">{props.post?.desc}</span>
@@ -54,6 +51,7 @@ export default function Post(props) {
               alt=""
             />
             <span className="likeCounter">{like} thích</span>
+            <div className="block"></div>
             <img
               className="Icon"
               src="/assets/heart.png"

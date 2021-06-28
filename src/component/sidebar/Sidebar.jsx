@@ -55,7 +55,9 @@ export default function Sidebar() {
             <span className="sibarListItemText">Trường học</span>
           </li>
         </ul>
-        <button className="sidebarButton">Xem thêm...</button>
+        <div className="buttonCenter">
+          <button className="sidebarButton">Xem thêm...</button>
+        </div>
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
           {Users.map((person) => (

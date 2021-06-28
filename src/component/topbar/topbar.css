@@ -49,25 +49,46 @@
 .topbarLink {
   margin-right: 10px;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  width: 35%;
+  color: white;
+}
+
+.topbarThong {
+  font-size: 20px;
+  font-weight: bold;
 }
 .topbarIcon {
   display: flex;
 }
 .topbarIconItem {
+  width: 40px;
+  height: 40px;
+  background-color: white;
   margin-right: 15px;
   cursor: pointer;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.topbarIconItem:hover {
+  background-color: rgb(207, 202, 202);
 }
 .topbarIconBadge {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   font-size: 14px;
   background-color: red;
   border-radius: 50%;
   color: white;
   position: absolute;
-  top: -5px;
-  right: -6px;
+  top: -3px;
+  right: -3px;
   display: flex;
   justify-content: center;
   align-items: center;
