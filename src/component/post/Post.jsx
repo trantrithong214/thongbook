@@ -1,5 +1,5 @@
 import "./post.css";
-import { MoreVert } from "@material-ui/icons";
+
 import { Users } from "../../DynamicData";
 import { useState } from "react";
 

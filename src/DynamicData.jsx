@@ -2,59 +2,59 @@ export const Users = [
   {
     id: 1,
     profilePicture: "assets/person/1.jpeg",
-    username: "Safak Kocaoglu",
+    username: "Trần Trí Thông",
   },
   {
     id: 2,
     profilePicture: "assets/person/2.jpeg",
-    username: "Janell Shrum",
+    username: "Elon Musk",
   },
   {
     id: 3,
     profilePicture: "assets/person/3.jpeg",
-    username: "Alex Durden",
+    username: "Bill Gate",
   },
   {
     id: 4,
     profilePicture: "assets/person/4.jpeg",
-    username: "Dora Hawks",
+    username: "Mark Zuckerberg",
   },
   {
     id: 5,
     profilePicture: "assets/person/5.jpeg",
-    username: "Thomas Holden",
+    username: "Jeff Bezos",
   },
   {
     id: 6,
     profilePicture: "assets/person/6.jpeg",
-    username: "Shirley Beauchamp",
+    username: "Steve Jobs",
   },
   {
     id: 7,
     profilePicture: "assets/person/7.jpeg",
-    username: "Travis Bennett",
+    username: "Donald Trump",
   },
   {
     id: 8,
     profilePicture: "assets/person/8.jpeg",
-    username: "Kristen Thomas",
+    username: "Joe Biden",
   },
   {
     id: 9,
     profilePicture: "assets/person/9.jpeg",
-    username: "Gary Duty",
+    username: "Barack Obama",
   },
   {
     id: 10,
     profilePicture: "assets/person/10.jpeg",
-    username: "Safak Kocaoglu",
+    username: "Cristiano Ronaldo",
   },
 ];
 
 export const Posts = [
   {
     id: 1,
-    desc: "Love For All, Hatred For None.",
+    desc: "Cùng học lập trình nào các bạn!!!",
     photo: "assets/post/1.jpeg",
     date: "5 mins ago",
     userId: 1,
@@ -65,6 +65,7 @@ export const Posts = [
   {
     id: 2,
     photo: "assets/post/2.jpeg",
+    desc: "Chơi bitcoin không mấy em :)).",
     date: "15 mins ago",
     userId: 2,
     like: 2,
@@ -73,7 +74,7 @@ export const Posts = [
   },
   {
     id: 3,
-    desc: "Every moment is a fresh beginning.",
+    desc: "Hôm nay tui buồn...",
     photo: "assets/post/3.jpeg",
     date: "1 hour ago",
     userId: 3,
@@ -84,6 +85,7 @@ export const Posts = [
   {
     id: 4,
     photo: "assets/post/4.jpeg",
+    desc: "Lướt ván không mấy bạn trẻ.",
     date: "4 hours ago",
     userId: 4,
     like: 7,
@@ -93,6 +95,7 @@ export const Posts = [
   {
     id: 5,
     photo: "assets/post/5.jpeg",
+    desc: "Chuẩn bị bay lên mặt trăng thôi hihi.",
     date: "5 hours ago",
     userId: 5,
     like: 23,
@@ -102,6 +105,7 @@ export const Posts = [
   {
     id: 6,
     photo: "assets/post/6.jpeg",
+    desc: "Mua Iphone giúp em đi quý dị.",
     date: "1 day ago",
     userId: 6,
     like: 44,
@@ -110,7 +114,7 @@ export const Posts = [
   },
   {
     id: 7,
-    desc: "Never regret anything that made you smile.",
+    desc: "Mình thật là ngầu quá đi.",
     photo: "assets/post/7.jpeg",
     date: "2 days ago",
     userId: 7,
@@ -129,7 +133,7 @@ export const Posts = [
   },
   {
     id: 9,
-    desc: "Change the world by being yourself.",
+    desc: "Hôm nay thật vui.",
     photo: "assets/post/9.jpeg",
     date: "5 days ago",
     userId: 9,
@@ -140,6 +144,7 @@ export const Posts = [
   {
     id: 10,
     photo: "assets/post/10.jpeg",
+    desc: "Cảm thấy thất vọng...",
     date: "1 week ago",
     userId: 10,
     like: 104,

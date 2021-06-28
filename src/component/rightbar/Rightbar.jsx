@@ -13,7 +13,9 @@ export default function Rightbar(props) {
             nhật ngày hôm nay
           </span>
         </div>
-        <img className="rightbarAd" src="/assets/ad.png" alt="" />
+        <img className="rightbarAd" src="/assets/add.png" alt="" />
+        <img className="rightbarAd" src="/assets/addd.png" alt="" />
+        <hr className="hr" />
         <h4 className="rightbarTitle">Bạn bè đang trực tuyến</h4>
         <ul className="rightbarFriendList">
           {Users.map((person) => (
